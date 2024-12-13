@@ -153,7 +153,6 @@ void Tick(float delta_time_s, fenster & f, uint32_t* buf)
 		}
 	}
 	tinybvh::free64( rays );
-	//tinybvh::free64( depths );
 }
 
 void Shutdown()
